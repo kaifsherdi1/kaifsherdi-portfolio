@@ -4713,8 +4713,8 @@ experience section — mobile responsive fix
 
 ------------------------------------------- */
 
-/* On mobile, override the 100vh banner lock so tall content isn't cut off */
-@media screen and (max-width: 991px) {
+/* On small mobile only, override the 100vh banner lock */
+@media screen and (max-width: 767px) {
   #experience.mil-banner {
     height: auto;
     min-height: 100vh;
