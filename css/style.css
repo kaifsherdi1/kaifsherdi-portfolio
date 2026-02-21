@@ -693,6 +693,67 @@ button
   }
 }
 
+/* spacing between inline banner buttons */
+.mil-btn-space {
+  margin-right: 30px;
+}
+
+/* Download Resume button */
+.mil-resume-btn {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 10px;
+  padding: 0 36px;
+  height: 70px;
+  border-radius: 70px;
+  border: 1.5px solid rgba(255, 255, 255, 0.35);
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+  transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+  vertical-align: middle;
+}
+
+.mil-resume-btn:hover {
+  background-color: rgb(255, 152, 0);
+  border-color: rgb(255, 152, 0);
+  color: rgb(0, 0, 0);
+  -webkit-transform: scale(1.015);
+  transform: scale(1.015);
+}
+
+.mil-resume-btn svg {
+  -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+  transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+}
+
+.mil-resume-btn:hover svg {
+  stroke: rgb(0, 0, 0);
+  -webkit-transform: translateY(3px);
+  transform: translateY(3px);
+}
+
+@media screen and (max-width: 992px) {
+  .mil-resume-btn {
+    height: 60px;
+    padding: 0 28px;
+    margin-top: 20px;
+  }
+
+  .mil-btn-space {
+    margin-right: 15px;
+  }
+}
+
+
 /* -------------------------------------------
 
 form
