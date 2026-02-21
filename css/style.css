@@ -4706,3 +4706,55 @@ html.is-animating .mil-menu-frame {
   -webkit-transition-delay: 0.3s;
   transition-delay: 0.3s;
 }
+
+/* -------------------------------------------
+
+experience section — mobile responsive fix
+
+------------------------------------------- */
+
+/* On mobile, override the 100vh banner lock so tall content isn't cut off */
+@media screen and (max-width: 991px) {
+  #experience.mil-banner {
+    height: auto;
+    min-height: 100vh;
+  }
+
+  #experience.mil-banner .container {
+    height: auto;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding-top: 120px;
+    padding-bottom: 80px;
+  }
+
+  #experience.mil-banner .mil-banner-content {
+    padding-bottom: 0;
+  }
+
+  #experience .mil-banner-content h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  #experience .mil-light-soft ul li {
+    font-size: 14px;
+    line-height: 1.8;
+  }
+
+  #experience .mil-accent {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #experience.mil-banner .container {
+    padding-top: 100px;
+    padding-bottom: 60px;
+  }
+
+  #experience .mil-banner-content h2 {
+    font-size: 1.75rem;
+  }
+}
