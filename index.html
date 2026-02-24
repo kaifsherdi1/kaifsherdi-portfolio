@@ -1,1333 +1,1588 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zxx">
-
-<head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <!-- bootstrap grid css -->
-    <link rel="stylesheet" href="css/plugins/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/plugins/bootstrap-grid.css" />
     <!-- font awesome css -->
-    <link rel="stylesheet" href="css/plugins/font-awesome.min.css">
+    <link rel="stylesheet" href="css/plugins/font-awesome.min.css" />
     <!-- swiper css -->
-    <link rel="stylesheet" href="css/plugins/swiper.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/plugins/swiper.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
     <!-- fancybox css -->
-    <link rel="stylesheet" href="css/plugins/fancybox.min.css">
+    <link rel="stylesheet" href="css/plugins/fancybox.min.css" />
     <!-- ashley scss -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
     <!-- page name -->
     <title>Kaif Sherdi</title>
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <!-- wrapper -->
     <div class="mil-wrapper" id="top">
+      <!-- cursor -->
+      <div class="mil-ball">
+        <span class="mil-icon-1">
+          <svg viewBox="0 0 128 128">
+            <path
+              d="M106.1,41.9c-1.2-1.2-3.1-1.2-4.2,0c-1.2,1.2-1.2,3.1,0,4.2L116.8,61H11.2l14.9-14.9c1.2-1.2,1.2-3.1,0-4.2	c-1.2-1.2-3.1-1.2-4.2,0l-20,20c-1.2,1.2-1.2,3.1,0,4.2l20,20c0.6,0.6,1.4,0.9,2.1,0.9s1.5-0.3,2.1-0.9c1.2-1.2,1.2-3.1,0-4.2	L11.2,67h105.5l-14.9,14.9c-1.2,1.2-1.2,3.1,0,4.2c0.6,0.6,1.4,0.9,2.1,0.9s1.5-0.3,2.1-0.9l20-20c1.2-1.2,1.2-3.1,0-4.2L106.1,41.9	z"
+            />
+          </svg>
+        </span>
+        <div class="mil-more-text">More</div>
+        <div class="mil-choose-text">Сhoose</div>
+      </div>
+      <!-- cursor end -->
 
-        <!-- cursor -->
-        <div class="mil-ball">
-            <span class="mil-icon-1">
-                <svg viewBox="0 0 128 128">
-                    <path d="M106.1,41.9c-1.2-1.2-3.1-1.2-4.2,0c-1.2,1.2-1.2,3.1,0,4.2L116.8,61H11.2l14.9-14.9c1.2-1.2,1.2-3.1,0-4.2	c-1.2-1.2-3.1-1.2-4.2,0l-20,20c-1.2,1.2-1.2,3.1,0,4.2l20,20c0.6,0.6,1.4,0.9,2.1,0.9s1.5-0.3,2.1-0.9c1.2-1.2,1.2-3.1,0-4.2	L11.2,67h105.5l-14.9,14.9c-1.2,1.2-1.2,3.1,0,4.2c0.6,0.6,1.4,0.9,2.1,0.9s1.5-0.3,2.1-0.9l20-20c1.2-1.2,1.2-3.1,0-4.2L106.1,41.9	z" />
-                </svg>
-            </span>
-            <div class="mil-more-text">More</div>
-            <div class="mil-choose-text">Сhoose</div>
+      <!-- preloader -->
+      <div class="mil-preloader">
+        <div class="mil-preloader-animation">
+          <div class="mil-pos-abs mil-animation-1">
+            <p class="mil-h3 mil-muted mil-thin">Welcome</p>
+            <p class="mil-h3 mil-muted">To My</p>
+            <p class="mil-h3 mil-muted mil-thin">Creative Portfolio</p>
+          </div>
+          <div class="mil-pos-abs mil-animation-2">
+            <div class="mil-reveal-frame">
+              <p class="mil-reveal-box"></p>
+              <p class="mil-h3 mil-muted mil-thin">Kaif Ahmed Sherdi</p>
+            </div>
+          </div>
         </div>
-        <!-- cursor end -->
+      </div>
+      <!-- preloader end -->
 
-        <!-- preloader -->
-        <div class="mil-preloader">
-            <div class="mil-preloader-animation">
-                <div class="mil-pos-abs mil-animation-1">
-                    <p class="mil-h3 mil-muted mil-thin">Welcome</p>
-<p class="mil-h3 mil-muted">To My</p>
-<p class="mil-h3 mil-muted mil-thin">Creative Portfolio</p>
-                </div>
-                <div class="mil-pos-abs mil-animation-2">
-                    <div class="mil-reveal-frame">
-                        <p class="mil-reveal-box"></p>
-                        <p class="mil-h3 mil-muted mil-thin">Kaif Ahmed Sherdi</p>
+      <!-- scrollbar progress -->
+      <div class="mil-progress-track">
+        <div class="mil-progress"></div>
+      </div>
+      <!-- scrollbar progress end -->
+
+      <!-- menu -->
+      <div class="mil-menu-frame">
+        <!-- frame clone -->
+        <div class="mil-frame-top">
+          <a href="#top" class="mil-logo">K.</a>
+          <div class="mil-menu-btn">
+            <span></span>
+          </div>
+        </div>
+        <!-- frame clone end -->
+        <div class="container">
+          <div class="mil-menu-content">
+            <div class="row">
+              <div class="col-xl-5">
+                <nav class="mil-main-menu" id="swupMenu">
+                  <ul>
+                    <li class="mil-active">
+                      <a href="#top">Home</a>
+                    </li>
+                    <li>
+                      <a href="#about">About</a>
+                    </li>
+                    <li>
+                      <a href="#services">Services</a>
+                    </li>
+                    <li>
+                      <a href="#experience">Experience</a>
+                    </li>
+                    <li>
+                      <a href="#education">Education</a>
+                    </li>
+                    <li>
+                      <a href="#projects">Projects</a>
+                    </li>
+                    <li>
+                      <a href="#skills">Skills</a>
+                    </li>
+                    <li>
+                      <a href="#testimonials">Testimonials</a>
+                    </li>
+                    <li>
+                      <a href="#certifications">Certifications</a>
+                    </li>
+                    <li>
+                      <a href="#contact">Contact</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="col-xl-7">
+                <div class="mil-menu-right-frame">
+                  <div class="mil-animation-in">
+                    <div class="mil-animation-frame">
+                      <div
+                        class="mil-animation mil-position-1 mil-scale"
+                        data-value-1="2"
+                        data-value-2="2"
+                      ></div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <!-- preloader end -->
-
-        <!-- scrollbar progress -->
-        <div class="mil-progress-track">
-            <div class="mil-progress"></div>
-        </div>
-        <!-- scrollbar progress end -->
-
-        <!-- menu -->
-        <div class="mil-menu-frame">
-            <!-- frame clone -->
-            <div class="mil-frame-top">
-                <a href="#top" class="mil-logo">K.</a>
-                <div class="mil-menu-btn">
-                    <span></span>
-                </div>
-            </div>
-            <!-- frame clone end -->
-            <div class="container">
-                <div class="mil-menu-content">
+                  </div>
+                  <div class="mil-menu-right">
                     <div class="row">
-                        <div class="col-xl-5">
+                      <div class="col-lg-8 mil-mb-60">
+                        <h6 class="mil-muted mil-mb-30">Quick Links</h6>
 
-                            <nav class="mil-main-menu" id="swupMenu">
-                                <ul>
-                                    <li class="mil-active">
-                                        <a href="#top">Home</a>
-                                    </li>
-                                    <li>
-                                        <a href="#about">About</a>
-                                    </li>
-                                    <li>
-                                        <a href="#services">Services</a>
-                                    </li>
-                                    <li>
-                                        <a href="#experience">Experience</a>
-                                    </li>
-                                    <li>
-                                        <a href="#education">Education</a>
-                                    </li>
-                                    <li>
-                                        <a href="#projects">Projects</a>
-                                    </li>
-                                    <li>
-                                        <a href="#skills">Skills</a>
-                                    </li>
-                                    <li>
-                                        <a href="#testimonials">Testimonials</a>
-                                    </li>
-                                    <li>
-                                        <a href="#certifications">Certifications</a>
-                                    </li>
-                                    <li>
-                                        <a href="#contact">Contact</a>
-                                    </li>
-                                </ul>
-                            </nav>
+                        <ul class="mil-menu-list">
+                          <li>
+                            <a href="#projects" class="mil-light-soft"
+                              >Zidaan Architecture Platform</a
+                            >
+                          </li>
+                          <li>
+                            <a href="#projects" class="mil-light-soft"
+                              >RedFreshBharath Website</a
+                            >
+                          </li>
+                          <li>
+                            <a href="#skills" class="mil-light-soft"
+                              >Tech Stack</a
+                            >
+                          </li>
+                          <li>
+                            <a href="#certifications" class="mil-light-soft"
+                              >Certifications</a
+                            >
+                          </li>
+                          <li>
+                            <a href="#testimonials" class="mil-light-soft"
+                              >Client Reviews</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-4 mil-mb-60">
+                        <h6 class="mil-muted mil-mb-30">Social</h6>
 
-                        </div>
-                        <div class="col-xl-7">
-
-                            <div class="mil-menu-right-frame">
-                                <div class="mil-animation-in">
-                                    <div class="mil-animation-frame">
-                                        <div class="mil-animation mil-position-1 mil-scale" data-value-1="2" data-value-2="2"></div>
-                                    </div>
-                                </div>
-                                <div class="mil-menu-right">
-                                    <div class="row">
-                                        <div class="col-lg-8 mil-mb-60">
-
-                                            <h6 class="mil-muted mil-mb-30">Quick Links</h6>
-
-                                            <ul class="mil-menu-list">
-                                                <li><a href="#projects" class="mil-light-soft">Zidaan Architecture Platform</a></li>
-                                                <li><a href="#projects" class="mil-light-soft">RedFreshBharath Website</a></li>
-                                                <li><a href="#skills" class="mil-light-soft">Tech Stack</a></li>
-                                                <li><a href="#certifications" class="mil-light-soft">Certifications</a></li>
-                                                <li><a href="#testimonials" class="mil-light-soft">Client Reviews</a></li>
-                                            </ul>
-
-                                        </div>
-                                        <div class="col-lg-4 mil-mb-60">
-
-                                            <h6 class="mil-muted mil-mb-30">Social</h6>
-
-                                            <ul class="mil-menu-list">
-                                                <li><a href="https://github.com/kaifsherdi1" target="_blank" class="mil-light-soft">GitHub</a></li>
-                                                <li><a href="https://www.linkedin.com/in/kaif-ahmed-sherdi" target="_blank" class="mil-light-soft">LinkedIn</a></li>
-                                                <li><a href="mailto:kaifahmedsherdi@gmail.com" class="mil-light-soft">Email Me</a></li>
-                                            </ul>
-
-                                        </div>
-                                    </div>
-                                    <div class="mil-divider mil-mb-60"></div>
-                                    <div class="row justify-content-between">
-
-                                        <div class="col-lg-6 mil-mb-60">
-
-                                            <h6 class="mil-muted mil-mb-30">Based In</h6>
-
-                                            <p class="mil-light-soft mil-up">Hubli, Karnataka, India</p>
-
-                                        </div>
-                                        <div class="col-lg-6 mil-mb-60">
-
-                                            <h6 class="mil-muted mil-mb-30">Available For</h6>
-
-                                            <p class="mil-light-soft">Full-time / Freelance <span class="mil-no-wrap">Remote &amp; On-site</span></p>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
+                        <ul class="mil-menu-list">
+                          <li>
+                            <a
+                              href="https://github.com/kaifsherdi1"
+                              target="_blank"
+                              data-no-swup
+                              class="mil-light-soft"
+                              >GitHub</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="https://www.linkedin.com/in/kaif-ahmed-sherdi"
+                              target="_blank"
+                              data-no-swup
+                              class="mil-light-soft"
+                              >LinkedIn</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="mailto:kaifahmedsherdi@gmail.com"
+                              data-no-swup
+                              class="mil-light-soft"
+                              >Email Me</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
                     </div>
+                    <div class="mil-divider mil-mb-60"></div>
+                    <div class="row justify-content-between">
+                      <div class="col-lg-6 mil-mb-60">
+                        <h6 class="mil-muted mil-mb-30">Based In</h6>
+
+                        <p class="mil-light-soft mil-up">
+                          Hubli, Karnataka, India
+                        </p>
+                      </div>
+                      <div class="col-lg-6 mil-mb-60">
+                        <h6 class="mil-muted mil-mb-30">Available For</h6>
+
+                        <p class="mil-light-soft">
+                          Full-time / Freelance
+                          <span class="mil-no-wrap">Remote &amp; On-site</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-        <!-- menu -->
-        
-        <!-- curtain -->
-        <div class="mil-curtain"></div>
-        <!-- curtain end -->
+      </div>
+      <!-- menu -->
 
-        <!-- frame -->
-        <div class="mil-frame">
-            <div class="mil-frame-top">
-                <a href="home-1.html" class="mil-logo">K.</a>
-                <div class="mil-menu-btn">
-                    <span></span>
-                </div>
-            </div>
-            <div class="mil-frame-bottom">
-                <div class="mil-current-page"></div>
-                <div class="mil-back-to-top">
-                    <a href="#top" class="mil-link mil-dark mil-arrow-place">
-                        <span>Back to top</span>
-                    </a>
-                </div>
-            </div>
+      <!-- curtain -->
+      <div class="mil-curtain"></div>
+      <!-- curtain end -->
+
+      <!-- frame -->
+      <div class="mil-frame">
+        <div class="mil-frame-top">
+          <a href="home-1.html" class="mil-logo">K.</a>
+          <div class="mil-menu-btn">
+            <span></span>
+          </div>
         </div>
-        <!-- frame end -->
-
-        <!-- content -->
-        <div class="mil-content">
-            <div id="swupMain" class="mil-main-transition">
-
-                <!-- banner -->
-                <section class="mil-banner mil-dark-bg">
-                    <div class="mi-invert-fix">
-                        <div class="mil-animation-frame">
-                            <div class="mil-animation mil-position-1 mil-scale" data-value-1="7" data-value-2="1.6"></div>
-                            <div class="mil-animation mil-position-2 mil-scale" data-value-1="4" data-value-2="1"></div>
-                            <div class="mil-animation mil-position-3 mil-scale" data-value-1="1.2" data-value-2=".1"></div>
-                        </div>
-
-                        <div class="mil-gradient"></div>
-
-                        <div class="container">
-    <div class="mil-banner-content mil-up">
-
-        <h1 class="mil-muted mil-mb-60">
-            Kaif <span class="mil-thin">Ahmed</span><br> Sherdi
-        </h1>
-
-        <div class="row">
-            <div class="col-md-7 col-lg-6">
-
-                <p class="mil-light-soft mil-mb-30">
-                    Software Developer specializing in building scalable, production-ready web applications using React.js, Next.js, TypeScript, and Laravel.
-                </p>
-
-                
-
-            </div>
-        </div>
-
-        <a href="#projects" class="mil-button mil-arrow-place mil-btn-space">
-            <span>View My Projects</span>
-        </a>
-
-        <a href="#contact" class="mil-link mil-muted mil-arrow-place mil-btn-space">
-            <span>Let's Connect</span>
-        </a>
-
-        <a href="resume/Kaif-fsd-Resume.pdf" download="Kaif-fsd-Resume.pdf" class="mil-resume-btn">
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
-                <polyline points="7 10 12 15 17 10"/>
-                <line x1="12" y1="15" x2="12" y2="3"/>
-            </svg>
-            <span>Download Resume</span>
-        </a>
-
-        <div class="mil-circle-text">
-            <svg version="1.1"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                viewBox="0 0 300 300"
-                class="mil-ct-svg mil-rotate"
-                data-value="360">
-
-                <defs>
-                    <path id="circlePath"
-                        d="M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0" />
-                </defs>
-
-                <circle cx="150" cy="100" r="75" fill="none" />
-
-                <g>
-                    <use xlink:href="#circlePath" fill="none" />
-                    <text style="letter-spacing: 6px">
-                        <textPath xlink:href="#circlePath">Scroll down - Scroll down - </textPath>
-                    </text>
-                </g>
-            </svg>
-
-            <a href="#about"
-                class="mil-button mil-arrow-place mil-icon-button mil-arrow-down">
+        <div class="mil-frame-bottom">
+          <div class="mil-current-page"></div>
+          <div class="mil-back-to-top">
+            <a href="#top" class="mil-link mil-dark mil-arrow-place">
+              <span>Back to top</span>
             </a>
+          </div>
         </div>
+      </div>
+      <!-- frame end -->
 
-    </div>
-</div>
+      <!-- content -->
+      <div class="mil-content">
+        <div id="swupMain" class="mil-main-transition">
+          <!-- banner -->
+          <section class="mil-banner mil-dark-bg">
+            <div class="mi-invert-fix">
+              <div class="mil-animation-frame">
+                <div
+                  class="mil-animation mil-position-1 mil-scale"
+                  data-value-1="7"
+                  data-value-2="1.6"
+                ></div>
+                <div
+                  class="mil-animation mil-position-2 mil-scale"
+                  data-value-1="4"
+                  data-value-2="1"
+                ></div>
+                <div
+                  class="mil-animation mil-position-3 mil-scale"
+                  data-value-1="1.2"
+                  data-value-2=".1"
+                ></div>
+              </div>
+
+              <div class="mil-gradient"></div>
+
+              <div class="container">
+                <div class="mil-banner-content mil-up">
+                  <h1 class="mil-muted mil-mb-60">
+                    Kaif <span class="mil-thin">Ahmed</span><br />
+                    Sherdi
+                  </h1>
+
+                  <div class="row">
+                    <div class="col-md-7 col-lg-6">
+                      <p class="mil-light-soft mil-mb-30">
+                        Software Developer specializing in building scalable,
+                        production-ready web applications using React.js,
+                        Next.js, TypeScript, and Laravel.
+                      </p>
                     </div>
-                </section>
-                <!-- banner end -->
+                  </div>
 
-                <!-- about -->
-                <section id="about">
-    <div class="container mil-p-120-30">
-        <div class="row justify-content-between align-items-center">
+                  <a
+                    href="#projects"
+                    class="mil-button mil-arrow-place mil-btn-space"
+                  >
+                    <span>View My Projects</span>
+                  </a>
 
-            <!-- Left Content -->
-            <div class="col-lg-6 col-xl-5">
+                  <a
+                    href="#contact"
+                    class="mil-link mil-muted mil-arrow-place mil-btn-space"
+                  >
+                    <span>Let's Connect</span>
+                  </a>
 
-                <div class="mil-mb-90">
+                  <a
+                    href="resume/Kaif-fsd-Resume.pdf"
+                    download="Kaif-fsd-Resume.pdf"
+                    data-no-swup
+                    class="mil-resume-btn"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                      <polyline points="7 10 12 15 17 10" />
+                      <line x1="12" y1="15" x2="12" y2="3" />
+                    </svg>
+                    <span>Download Resume</span>
+                  </a>
 
+                  <div class="mil-circle-text">
+                    <svg
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      viewBox="0 0 300 300"
+                      class="mil-ct-svg mil-rotate"
+                      data-value="360"
+                    >
+                      <defs>
+                        <path
+                          id="circlePath"
+                          d="M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0"
+                        />
+                      </defs>
+
+                      <circle cx="150" cy="100" r="75" fill="none" />
+
+                      <g>
+                        <use xlink:href="#circlePath" fill="none" />
+                        <text style="letter-spacing: 6px">
+                          <textPath xlink:href="#circlePath">
+                            Scroll down - Scroll down -
+                          </textPath>
+                        </text>
+                      </g>
+                    </svg>
+
+                    <a
+                      href="#about"
+                      class="mil-button mil-arrow-place mil-icon-button mil-arrow-down"
+                    >
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- banner end -->
+
+          <!-- about -->
+          <section id="about">
+            <div class="container mil-p-120-30">
+              <div class="row justify-content-between align-items-center">
+                <!-- Left Content -->
+                <div class="col-lg-6 col-xl-5">
+                  <div class="mil-mb-90">
                     <h2 class="mil-up mil-mb-60">
-                        About <br> <span class="mil-thin">Me</span>
+                      About <br />
+                      <span class="mil-thin">Me</span>
                     </h2>
 
                     <p class="mil-up mil-mb-30">
-                        I'm Kaif Ahmed Sherdi, a Full Stack Developer with hands-on experience building scalable, production-ready web applications using React.js, Next.js, TypeScript, and Laravel. I specialize in designing secure backend systems, developing RESTful APIs, and creating modern, high-performance user interfaces.
+                      I'm Kaif Ahmed Sherdi, a Full Stack Developer with
+                      hands-on experience building scalable, production-ready
+                      web applications using React.js, Next.js, TypeScript, and
+                      Laravel. I specialize in designing secure backend systems,
+                      developing RESTful APIs, and creating modern,
+                      high-performance user interfaces.
                     </p>
 
                     <p class="mil-up mil-mb-30">
-                        I have developed multiple real-world platforms including real estate systems, e-commerce applications, and management dashboards with advanced features like role-based access control, authentication, payment integration, caching with Redis, and optimized database architecture.
+                      I have developed multiple real-world platforms including
+                      real estate systems, e-commerce applications, and
+                      management dashboards with advanced features like
+                      role-based access control, authentication, payment
+                      integration, caching with Redis, and optimized database
+                      architecture.
                     </p>
 
                     <p class="mil-up mil-mb-60">
-                        My focus is on writing clean, maintainable code using proper architecture patterns such as Controller–Service structure, API standardization, and scalable system design. I am passionate about building efficient, secure, and user-friendly applications that solve real business problems.
+                      My focus is on writing clean, maintainable code using
+                      proper architecture patterns such as Controller–Service
+                      structure, API standardization, and scalable system
+                      design. I am passionate about building efficient, secure,
+                      and user-friendly applications that solve real business
+                      problems.
                     </p>
 
                     <div class="mil-about-quote">
+                      <div class="mil-avatar mil-up">
+                        <img
+                          src="img/pictures/kaif-avatar.png"
+                          alt="Kaif Ahmed Sherdi"
+                        />
+                      </div>
 
-                        <div class="mil-avatar mil-up">
-                            <img src="img/pictures/kaif-avatar.png" alt="Kaif Ahmed Sherdi">
-                        </div>
-
-                        <h6 class="mil-quote mil-up">
-                            Building Scalable Systems with <span class="mil-thin">Clean Architecture</span>, 
-                            Secure APIs, and <span class="mil-thin">Modern User Experiences</span>
-                        </h6>
-
+                      <h6 class="mil-quote mil-up">
+                        Building Scalable Systems with
+                        <span class="mil-thin">Clean Architecture</span>, Secure
+                        APIs, and
+                        <span class="mil-thin">Modern User Experiences</span>
+                      </h6>
                     </div>
-
+                  </div>
                 </div>
 
-            </div>
-
-
-            <!-- Right Image -->
-            <div class="col-lg-5">
-
-                <div class="mil-about-photo mil-mb-90">
-
+                <!-- Right Image -->
+                <div class="col-lg-5">
+                  <div class="mil-about-photo mil-mb-90">
                     <div class="mil-lines-place"></div>
 
-                    <div class="mil-up mil-img-frame" style="padding-bottom: 160%;">
-
-                        <!-- Replace with your professional photo -->
-                        <img src="img/pictures/profile-pic.jpg"
-                             alt="Kaif Ahmed Sherdi"
-                             class="mil-scale"
-                             data-value-1="1"
-                             data-value-2="1.2">
-
+                    <div
+                      class="mil-up mil-img-frame"
+                      style="padding-bottom: 160%"
+                    >
+                      <!-- Replace with your professional photo -->
+                      <img
+                        src="img/pictures/profile-pic.jpg"
+                        alt="Kaif Ahmed Sherdi"
+                        class="mil-scale"
+                        data-value-1="1"
+                        data-value-2="1.2"
+                      />
                     </div>
-
+                  </div>
                 </div>
-
+              </div>
             </div>
+          </section>
+          <!-- about end -->
 
-        </div>
-    </div>
-</section>
-                <!-- about end -->
-
-                <!-- services -->
-                <section id="services" class="mil-dark-bg">
-    <div class="mi-invert-fix">
-
-        <div class="container mil-p-120-0">
-
-            <!-- Heading -->
-            <div class="mil-mb-120">
-
-                <div class="row">
+          <!-- services -->
+          <section id="services" class="mil-dark-bg">
+            <div class="mi-invert-fix">
+              <div class="container mil-p-120-0">
+                <!-- Heading -->
+                <div class="mil-mb-120">
+                  <div class="row">
                     <div class="col-lg-10">
-                        <span class="mil-suptitle mil-light-soft mil-suptitle-right mil-up">
-                            I develop scalable digital products for businesses, startups, and enterprises.
-                        </span>
+                      <span
+                        class="mil-suptitle mil-light-soft mil-suptitle-right mil-up"
+                      >
+                        I develop scalable digital products for businesses,
+                        startups, and enterprises.
+                      </span>
                     </div>
-                </div>
+                  </div>
 
-                <div class="mil-complex-text justify-content-center mil-up mil-mb-15">
+                  <div
+                    class="mil-complex-text justify-content-center mil-up mil-mb-15"
+                  >
                     <!-- <span class="mil-text-image">
                         <img src="img/pictures/banner-1.PNG" alt="Kaif Ahmed Sherdi">
                     </span> -->
 
                     <h2 class="mil-h1 mil-muted mil-center">
-                        Solutions <span class="mil-thin">I Provide</span>
+                      Solutions <span class="mil-thin">I Provide</span>
                     </h2>
-                </div>
+                  </div>
 
-                <div class="mil-complex-text justify-content-center mil-up">
+                  <div class="mil-complex-text justify-content-center mil-up">
                     <h2 class="mil-h1 mil-muted mil-center">
-                        For Modern <span class="mil-thin">Businesses</span>
+                      For Modern <span class="mil-thin">Businesses</span>
                     </h2>
 
-                    <a href="#projects" class="mil-services-button mil-button mil-arrow-place">
-                        <span>View My Projects</span>
+                    <a
+                      href="#projects"
+                      class="mil-services-button mil-button mil-arrow-place"
+                    >
+                      <span>View My Projects</span>
                     </a>
+                  </div>
                 </div>
 
+                <!-- Services Grid -->
+                <div class="row mil-services-grid m-0">
+                  <!-- Websites -->
+                  <div class="col-md-6 col-lg-3 mil-services-grid-item p-0">
+                    <div class="mil-service-card-sm mil-up">
+                      <h5 class="mil-muted mil-mb-30">
+                        Website <br />Development
+                      </h5>
+
+                      <p class="mil-light-soft mil-mb-30">
+                        Responsive, modern, and high-performance business
+                        websites using React.js and Next.js.
+                      </p>
+
+                      <div
+                        class="mil-button mil-icon-button-sm mil-arrow-place"
+                      ></div>
+                    </div>
+                  </div>
+
+                  <!-- Web Applications -->
+                  <div class="col-md-6 col-lg-3 mil-services-grid-item p-0">
+                    <div class="mil-service-card-sm mil-up">
+                      <h5 class="mil-muted mil-mb-30">
+                        Web Application <br />Development
+                      </h5>
+
+                      <p class="mil-light-soft mil-mb-30">
+                        Custom web applications including admin panels,
+                        dashboards, and business systems.
+                      </p>
+
+                      <div
+                        class="mil-button mil-icon-button-sm mil-arrow-place"
+                      ></div>
+                    </div>
+                  </div>
+
+                  <!-- ERP Applications -->
+                  <div class="col-md-6 col-lg-3 mil-services-grid-item p-0">
+                    <div class="mil-service-card-sm mil-up">
+                      <h5 class="mil-muted mil-mb-30">
+                        ERP System <br />Development
+                      </h5>
+
+                      <p class="mil-light-soft mil-mb-30">
+                        Enterprise ERP systems for managing users, roles,
+                        finance, inventory, operations, and business workflows.
+                      </p>
+
+                      <div
+                        class="mil-button mil-icon-button-sm mil-arrow-place"
+                      ></div>
+                    </div>
+                  </div>
+
+                  <!-- Backend & APIs -->
+                  <div class="col-md-6 col-lg-3 mil-services-grid-item p-0">
+                    <div class="mil-service-card-sm mil-up">
+                      <h5 class="mil-muted mil-mb-30">
+                        Backend & API <br />Development
+                      </h5>
+
+                      <p class="mil-light-soft mil-mb-30">
+                        Secure and scalable backend systems using Laravel,
+                        MySQL, authentication, and REST APIs.
+                      </p>
+
+                      <div
+                        class="mil-button mil-icon-button-sm mil-arrow-place"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+          </section>
+          <!-- services end -->
 
-
-            <!-- Services Grid -->
-            <div class="row mil-services-grid m-0">
-
-
-                <!-- Websites -->
-                <div class="col-md-6 col-lg-3 mil-services-grid-item p-0">
-                    <div class="mil-service-card-sm mil-up">
-
-                        <h5 class="mil-muted mil-mb-30">
-                            Website <br>Development
-                        </h5>
-
-                        <p class="mil-light-soft mil-mb-30">
-                            Responsive, modern, and high-performance business websites using React.js and Next.js.
-                        </p>
-
-                        <div class="mil-button mil-icon-button-sm mil-arrow-place"></div>
-
-                    </div>
-                </div>
-
-
-                <!-- Web Applications -->
-                <div class="col-md-6 col-lg-3 mil-services-grid-item p-0">
-                    <div class="mil-service-card-sm mil-up">
-
-                        <h5 class="mil-muted mil-mb-30">
-                            Web Application <br>Development
-                        </h5>
-
-                        <p class="mil-light-soft mil-mb-30">
-                            Custom web applications including admin panels, dashboards, and business systems.
-                        </p>
-
-                        <div class="mil-button mil-icon-button-sm mil-arrow-place"></div>
-
-                    </div>
-                </div>
-
-
-                <!-- ERP Applications -->
-                <div class="col-md-6 col-lg-3 mil-services-grid-item p-0">
-                    <div class="mil-service-card-sm mil-up">
-
-                        <h5 class="mil-muted mil-mb-30">
-                            ERP System <br>Development
-                        </h5>
-
-                        <p class="mil-light-soft mil-mb-30">
-                            Enterprise ERP systems for managing users, roles, finance, inventory, operations, and business workflows.
-                        </p>
-
-                        <div class="mil-button mil-icon-button-sm mil-arrow-place"></div>
-
-                    </div>
-                </div>
-
-
-                <!-- Backend & APIs -->
-                <div class="col-md-6 col-lg-3 mil-services-grid-item p-0">
-                    <div class="mil-service-card-sm mil-up">
-
-                        <h5 class="mil-muted mil-mb-30">
-                            Backend & API <br>Development
-                        </h5>
-
-                        <p class="mil-light-soft mil-mb-30">
-                            Secure and scalable backend systems using Laravel, MySQL, authentication, and REST APIs.
-                        </p>
-
-                        <div class="mil-button mil-icon-button-sm mil-arrow-place"></div>
-
-                    </div>
-                </div>
-
-
-            </div>
-
-        </div>
-
-    </div>
-</section>
-                <!-- services end -->
-
-                <!-- team -->
-                <section id="education" style="background-color: #f8f9fa;">
-    <div class="container mil-p-120-30">
-
-        <div class="row justify-content-between align-items-start">
-
-            <!-- Left Content -->
-            <div class="col-lg-5 col-xl-4">
-
-                <div class="mil-mb-90">
-
-                    <h2 class="mil-up mil-mb-60" style="color: #000;">
-                        My <br>Education
+          <!-- team -->
+          <section id="education" style="background-color: #f8f9fa">
+            <div class="container mil-p-120-30">
+              <div class="row justify-content-between align-items-start">
+                <!-- Left Content -->
+                <div class="col-lg-5 col-xl-4">
+                  <div class="mil-mb-90">
+                    <h2 class="mil-up mil-mb-60" style="color: #000">
+                      My <br />Education
                     </h2>
 
-                    <p class="mil-up mil-mb-30" style="color: #000;">
-                        My education in Electrical and Electronics Engineering built my analytical thinking and problem-solving skills, which became the foundation of my software development career.
+                    <p class="mil-up mil-mb-30" style="color: #000">
+                      My education in Electrical and Electronics Engineering
+                      built my analytical thinking and problem-solving skills,
+                      which became the foundation of my software development
+                      career.
                     </p>
 
-                    <p class="mil-up mil-mb-60" style="color: #000;">
-                        I combined my engineering knowledge with modern Full Stack technologies like React.js and Laravel to build scalable, production-ready applications.
+                    <p class="mil-up mil-mb-60" style="color: #000">
+                      I combined my engineering knowledge with modern Full Stack
+                      technologies like React.js and Laravel to build scalable,
+                      production-ready applications.
                     </p>
 
-                    <h4 class="mil-up" style="color: #000;">
-                        Academic Foundation for <br>
-                        <span class="mil-thin">Software Engineering</span>
+                    <h4 class="mil-up" style="color: #000">
+                      Academic Foundation for <br />
+                      <span class="mil-thin">Software Engineering</span>
                     </h4>
-
+                  </div>
                 </div>
 
-            </div>
-
-
-            <!-- Right Cards -->
-            <div class="col-lg-6">
-
-                <!-- BE Card -->
-                <div class="mil-up mil-mb-30" 
-                     style="background: #ffffff; color: #000; padding: 30px; border-radius: 10px; border: 1px solid #ddd; box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
-
-                    <h5 style="color: #000; margin-bottom: 10px;">
-                        Bachelor of Engineering (B.E)
+                <!-- Right Cards -->
+                <div class="col-lg-6">
+                  <!-- BE Card -->
+                  <div
+                    class="mil-up mil-mb-30"
+                    style="
+                      background: #ffffff;
+                      color: #000;
+                      padding: 30px;
+                      border-radius: 10px;
+                      border: 1px solid #ddd;
+                      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+                    "
+                  >
+                    <h5 style="color: #000; margin-bottom: 10px">
+                      Bachelor of Engineering (B.E)
                     </h5>
 
-                    <p style="margin-bottom: 5px;">
-                        Electrical & Electronics Engineering
+                    <p style="margin-bottom: 5px">
+                      Electrical & Electronics Engineering
                     </p>
 
-                    <p style="margin-bottom: 5px;">
-                        AGMR College of Engineering
+                    <p style="margin-bottom: 5px">
+                      AGMR College of Engineering
                     </p>
 
                     <p>
-                        Varur, Hubli <br>
-                        Nov 2021 – Jul 2024
+                      Varur, Hubli <br />
+                      Nov 2021 – Jul 2024
+                    </p>
+                  </div>
+
+                  <!-- Diploma Card -->
+                  <div
+                    class="mil-up mil-mb-30"
+                    style="
+                      background: #ffffff;
+                      color: #000;
+                      padding: 30px;
+                      border-radius: 10px;
+                      border: 1px solid #ddd;
+                      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+                    "
+                  >
+                    <h5 style="color: #000; margin-bottom: 10px">Diploma</h5>
+
+                    <p style="margin-bottom: 5px">
+                      Electrical & Electronics Engineering
                     </p>
 
-                </div>
-
-
-                <!-- Diploma Card -->
-                <div class="mil-up mil-mb-30" 
-                     style="background: #ffffff; color: #000; padding: 30px; border-radius: 10px; border: 1px solid #ddd; box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
-
-                    <h5 style="color: #000; margin-bottom: 10px;">
-                        Diploma
-                    </h5>
-
-                    <p style="margin-bottom: 5px;">
-                        Electrical & Electronics Engineering
-                    </p>
-
-                    <p style="margin-bottom: 5px;">
-                        Tippu Shaheed Institute of Technology
+                    <p style="margin-bottom: 5px">
+                      Tippu Shaheed Institute of Technology
                     </p>
 
                     <p>
-                        Hubli, Karnataka <br>
-                        Jul 2018 – Oct 2021
+                      Hubli, Karnataka <br />
+                      Jul 2018 – Oct 2021
                     </p>
-
+                  </div>
                 </div>
-
+              </div>
             </div>
+          </section>
 
-        </div>
+          <section id="experience" class="mil-banner mil-dark-bg">
+            <div class="mi-invert-fix">
+              <!-- Background animation -->
+              <div class="mil-animation-frame">
+                <div
+                  class="mil-animation mil-position-1 mil-scale"
+                  data-value-1="7"
+                  data-value-2="1.6"
+                ></div>
+                <div
+                  class="mil-animation mil-position-2 mil-scale"
+                  data-value-1="4"
+                  data-value-2="1"
+                ></div>
+                <div
+                  class="mil-animation mil-position-3 mil-scale"
+                  data-value-1="1.2"
+                  data-value-2=".1"
+                ></div>
+              </div>
 
-    </div>
-</section>
+              <div class="mil-gradient"></div>
 
-<section id="experience" class="mil-banner mil-dark-bg">
-    <div class="mi-invert-fix">
-
-        <!-- Background animation -->
-        <div class="mil-animation-frame">
-            <div class="mil-animation mil-position-1 mil-scale" data-value-1="7" data-value-2="1.6"></div>
-            <div class="mil-animation mil-position-2 mil-scale" data-value-1="4" data-value-2="1"></div>
-            <div class="mil-animation mil-position-3 mil-scale" data-value-1="1.2" data-value-2=".1"></div>
-        </div>
-
-        <div class="mil-gradient"></div>
-
-        <div class="container">
-            <div class="mil-banner-content mil-up">
-
-                <!-- Section Title -->
-                <h2 class="mil-muted mil-mb-60">
+              <div class="container">
+                <div class="mil-banner-content mil-up">
+                  <!-- Section Title -->
+                  <h2 class="mil-muted mil-mb-60">
                     Professional <span class="mil-thin">Experience</span>
-                </h2>
+                  </h2>
 
-                <div class="row">
+                  <div class="row">
                     <div class="col-lg-8">
+                      <!-- Experience Card -->
+                      <div class="mil-light-soft mil-mb-30">
+                        <h4 class="mil-muted mil-mb-10">
+                          Associate Software Developer
+                        </h4>
 
-                        <!-- Experience Card -->
-                        <div class="mil-light-soft mil-mb-30">
+                        <p class="mil-accent mil-mb-20">
+                          7 Crore Technologies Pvt. Ltd. • Full Time
+                        </p>
 
-                            <h4 class="mil-muted mil-mb-10">
-                                Associate Software Developer
-                            </h4>
+                        <p class="mil-light-soft mil-mb-20">
+                          Worked as a Full Stack Developer building scalable
+                          enterprise-level web applications, ERP systems, and
+                          REST APIs using modern technologies like React.js,
+                          Next.js, TypeScript, and Laravel.
+                        </p>
 
-                            <p class="mil-accent mil-mb-20">
-                                7 Crore Technologies Pvt. Ltd. • Full Time
-                            </p>
+                        <ul
+                          class="mil-light-soft"
+                          style="
+                            line-height: 1.9;
+                            list-style: none;
+                            padding-left: 0;
+                          "
+                        >
+                          <li>
+                            • Developed production-ready ERP and web
+                            applications using Laravel and React.js
+                          </li>
 
-                            <p class="mil-light-soft mil-mb-20">
-                                Worked as a Full Stack Developer building scalable enterprise-level
-                                web applications, ERP systems, and REST APIs using modern
-                                technologies like React.js, Next.js, TypeScript, and Laravel.
-                            </p>
+                          <li>
+                            • Built secure REST APIs with authentication using
+                            Laravel Sanctum and JWT
+                          </li>
 
-                            <ul class="mil-light-soft" style="line-height: 1.9; list-style: none; padding-left: 0;">
-                                <li>• Developed production-ready ERP and web applications using Laravel and React.js</li>
+                          <li>
+                            • Designed scalable backend architecture using
+                            Service-Repository pattern
+                          </li>
 
-                                <li>• Built secure REST APIs with authentication using Laravel Sanctum and JWT</li>
+                          <li>
+                            • Developed responsive, high-performance frontend
+                            using React.js and Next.js
+                          </li>
 
-                                <li>• Designed scalable backend architecture using Service-Repository pattern</li>
+                          <li>
+                            • Integrated third-party APIs, payment gateways, and
+                            external services
+                          </li>
 
-                                <li>• Developed responsive, high-performance frontend using React.js and Next.js</li>
+                          <li>
+                            • Optimized application performance using caching,
+                            queues, and database optimization
+                          </li>
 
-                                <li>• Integrated third-party APIs, payment gateways, and external services</li>
+                          <li>
+                            • Collaborated with team to deliver scalable
+                            business solutions
+                          </li>
+                        </ul>
+                      </div>
 
-                                <li>• Optimized application performance using caching, queues, and database optimization</li>
-
-                                <li>• Collaborated with team to deliver scalable business solutions</li>
-                            </ul>
-
-                        </div>
-
-                        <!-- Optional Button -->
-                        <a href="#projects" class="mil-button mil-arrow-place mil-btn-space">
-                            <span>View My Work</span>
-                        </a>
-
+                      <!-- Optional Button -->
+                      <a
+                        href="#projects"
+                        class="mil-button mil-arrow-place mil-btn-space"
+                      >
+                        <span>View My Work</span>
+                      </a>
                     </div>
+                  </div>
                 </div>
-
+              </div>
             </div>
-        </div>
+          </section>
 
-    </div>
-</section>
-                
-
-                <!-- reviews -->
-                <section id="testimonials" class="mil-soft-bg">
-    <div class="container mil-p-120-120">
-
-        <!-- Top Small Text -->
-        <div class="row">
-            <div class="col-lg-10">
-                <span class="mil-suptitle mil-suptitle-right mil-suptitle-dark mil-up">
-                    Real feedback from clients and team members I’ve collaborated with.
-                </span>
-            </div>
-        </div>
-
-        <!-- Section Heading -->
-        <h2 class="mil-center mil-up mil-mb-60">
-            Client <span class="mil-thin">Testimonials:</span> <br>
-            What <span class="mil-thin">They Say</span>
-        </h2>
-
-        <div class="mil-revi-pagination mil-up mil-mb-60"></div>
-
-        <div class="row mil-relative justify-content-center">
-            <div class="col-lg-8">
-
-                <div class="mil-slider-nav mil-soft mil-reviews-nav mil-up">
-                    <div class="mil-slider-arrow mil-prev mil-revi-prev mil-arrow-place"></div>
-                    <div class="mil-slider-arrow mil-revi-next mil-arrow-place"></div>
+          <!-- reviews -->
+          <section id="testimonials" class="mil-soft-bg">
+            <div class="container mil-p-120-120">
+              <!-- Top Small Text -->
+              <div class="row">
+                <div class="col-lg-10">
+                  <span
+                    class="mil-suptitle mil-suptitle-right mil-suptitle-dark mil-up"
+                  >
+                    Real feedback from clients and team members I’ve
+                    collaborated with.
+                  </span>
                 </div>
+              </div>
 
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" class="mil-quote-icon mil-up">
-                    <path d="M 13.5 10 A 8.5 8.5 0 0 0 13.5 27 A 8.5 8.5 0 0 0 18.291016 25.519531 C 17.422273 29.222843 15.877848 31.803343 14.357422 33.589844 C 12.068414 36.279429 9.9433594 37.107422 9.9433594 37.107422 A 1.50015 1.50015 0 1 0 11.056641 39.892578 C 11.056641 39.892578 13.931586 38.720571 16.642578 35.535156 C 19.35357 32.349741 22 27.072581 22 19 A 1.50015 1.50015 0 0 0 21.984375 18.78125 A 8.5 8.5 0 0 0 13.5 10 z M 34.5 10 A 8.5 8.5 0 0 0 34.5 27 A 8.5 8.5 0 0 0 39.291016 25.519531 C 38.422273 29.222843 36.877848 31.803343 35.357422 33.589844 C 33.068414 36.279429 30.943359 37.107422 30.943359 37.107422 A 1.50015 1.50015 0 1 0 32.056641 39.892578 C 32.056641 39.892578 34.931586 38.720571 37.642578 35.535156 C 40.35357 32.349741 43 27.072581 43 19 A 1.50015 1.50015 0 0 0 42.984375 18.78125 A 8.5 8.5 0 0 0 34.5 10 z" fill="#000000"/>
-                </svg>
+              <!-- Section Heading -->
+              <h2 class="mil-center mil-up mil-mb-60">
+                Client <span class="mil-thin">Testimonials:</span> <br />
+                What <span class="mil-thin">They Say</span>
+              </h2>
 
-                <div class="swiper-container mil-reviews-slider">
+              <div class="mil-revi-pagination mil-up mil-mb-60"></div>
+
+              <div class="row mil-relative justify-content-center">
+                <div class="col-lg-8">
+                  <div class="mil-slider-nav mil-soft mil-reviews-nav mil-up">
+                    <div
+                      class="mil-slider-arrow mil-prev mil-revi-prev mil-arrow-place"
+                    ></div>
+                    <div
+                      class="mil-slider-arrow mil-revi-next mil-arrow-place"
+                    ></div>
+                  </div>
+
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 48 48"
+                    class="mil-quote-icon mil-up"
+                  >
+                    <path
+                      d="M 13.5 10 A 8.5 8.5 0 0 0 13.5 27 A 8.5 8.5 0 0 0 18.291016 25.519531 C 17.422273 29.222843 15.877848 31.803343 14.357422 33.589844 C 12.068414 36.279429 9.9433594 37.107422 9.9433594 37.107422 A 1.50015 1.50015 0 1 0 11.056641 39.892578 C 11.056641 39.892578 13.931586 38.720571 16.642578 35.535156 C 19.35357 32.349741 22 27.072581 22 19 A 1.50015 1.50015 0 0 0 21.984375 18.78125 A 8.5 8.5 0 0 0 13.5 10 z M 34.5 10 A 8.5 8.5 0 0 0 34.5 27 A 8.5 8.5 0 0 0 39.291016 25.519531 C 38.422273 29.222843 36.877848 31.803343 35.357422 33.589844 C 33.068414 36.279429 30.943359 37.107422 30.943359 37.107422 A 1.50015 1.50015 0 1 0 32.056641 39.892578 C 32.056641 39.892578 34.931586 38.720571 37.642578 35.535156 C 40.35357 32.349741 43 27.072581 43 19 A 1.50015 1.50015 0 0 0 42.984375 18.78125 A 8.5 8.5 0 0 0 34.5 10 z"
+                      fill="#000000"
+                    />
+                  </svg>
+
+                  <div class="swiper-container mil-reviews-slider">
                     <div class="swiper-wrapper">
-
-                        <!-- Testimonial 1 -->
-                        <div class="swiper-slide">
-                            <div class="mil-review-frame mil-center">
-                                <h5 class="mil-mb-10">Project Manager</h5>
-                                <p class="mil-mb-5 mil-upper mil-mb-30">
-                                    7 Crore Technologies
-                                </p>
-                                <p class="mil-text-xl">
-                                    Kaif consistently delivers scalable and production-ready applications.
-                                    His backend architecture skills and clean API design significantly
-                                    improved system performance and maintainability.
-                                </p>
-                            </div>
+                      <!-- Testimonial 1 -->
+                      <div class="swiper-slide">
+                        <div class="mil-review-frame mil-center">
+                          <h5 class="mil-mb-10">Project Manager</h5>
+                          <p class="mil-mb-5 mil-upper mil-mb-30">
+                            7 Crore Technologies
+                          </p>
+                          <p class="mil-text-xl">
+                            Kaif consistently delivers scalable and
+                            production-ready applications. His backend
+                            architecture skills and clean API design
+                            significantly improved system performance and
+                            maintainability.
+                          </p>
                         </div>
+                      </div>
 
-                        <!-- Testimonial 2 -->
-                        <div class="swiper-slide">
-                            <div class="mil-review-frame mil-center">
-                                <h5 class="mil-mb-10">Business Client</h5>
-                                <p class="mil-mb-5 mil-upper mil-mb-30">
-                                    ERP Application Project
-                                </p>
-                                <p class="mil-text-xl">
-                                    The ERP system developed was secure, fast, and user-friendly.
-                                    Kaif understood business requirements clearly and delivered
-                                    beyond expectations with high-quality implementation.
-                                </p>
-                            </div>
+                      <!-- Testimonial 2 -->
+                      <div class="swiper-slide">
+                        <div class="mil-review-frame mil-center">
+                          <h5 class="mil-mb-10">Business Client</h5>
+                          <p class="mil-mb-5 mil-upper mil-mb-30">
+                            ERP Application Project
+                          </p>
+                          <p class="mil-text-xl">
+                            The ERP system developed was secure, fast, and
+                            user-friendly. Kaif understood business requirements
+                            clearly and delivered beyond expectations with
+                            high-quality implementation.
+                          </p>
                         </div>
+                      </div>
 
-                        <!-- Testimonial 3 -->
-                        <div class="swiper-slide">
-                            <div class="mil-review-frame mil-center">
-                                <h5 class="mil-mb-10">Frontend Team Lead</h5>
-                                <p class="mil-mb-5 mil-upper mil-mb-30">
-                                    Web Application Project
-                                </p>
-                                <p class="mil-text-xl">
-                                    His expertise in React.js and Next.js helped optimize our frontend
-                                    performance and improve user experience. A reliable and
-                                    solution-oriented developer.
-                                </p>
-                            </div>
+                      <!-- Testimonial 3 -->
+                      <div class="swiper-slide">
+                        <div class="mil-review-frame mil-center">
+                          <h5 class="mil-mb-10">Frontend Team Lead</h5>
+                          <p class="mil-mb-5 mil-upper mil-mb-30">
+                            Web Application Project
+                          </p>
+                          <p class="mil-text-xl">
+                            His expertise in React.js and Next.js helped
+                            optimize our frontend performance and improve user
+                            experience. A reliable and solution-oriented
+                            developer.
+                          </p>
                         </div>
-
+                      </div>
                     </div>
+                  </div>
                 </div>
-
+              </div>
             </div>
-        </div>
+          </section>
+          <!-- reviews end -->
 
-    </div>
-</section>
-                <!-- reviews end -->
+          <!-- partners -->
 
-                <!-- partners -->
-        
-                
+          <!-- blog -->
+          <section id="projects">
+            <div class="container mil-p-120-60">
+              <div class="row align-items-center mil-mb-30">
+                <div class="col-lg-6 mil-mb-30">
+                  <h3 class="mil-up">
+                    My <span class="mil-thin">Projects</span>
+                  </h3>
+                </div>
+              </div>
 
-                <!-- blog -->
-           <section id="projects">
-    <div class="container mil-p-120-60">
-
-        <div class="row align-items-center mil-mb-30">
-            <div class="col-lg-6 mil-mb-30">
-                <h3 class="mil-up">My <span class="mil-thin">Projects</span></h3>
-            </div>
-        </div>
-
-        <div class="row">
-
-            <!-- Zidaan Architecture -->
-            <div class="col-lg-6">
-
-                <a href="https://github.com/kaifsherdi1/zidaan-architecture" target="_blank" class="mil-blog-card mil-mb-60 project-card">
-                    
+              <div class="row">
+                <!-- Zidaan Architecture -->
+                <div class="col-lg-6">
+                  <a
+                    href="https://github.com/kaifsherdi1/zidaan-architecture"
+                    target="_blank"
+                    data-no-swup
+                    class="mil-blog-card mil-mb-60 project-card"
+                  >
                     <div class="mil-cover-frame mil-up">
-                        <img src="img/pictures/zidaan-architectures.PNG" alt="Zidaan Architecture">
+                      <img
+                        src="img/pictures/zidaan-architectures.PNG"
+                        alt="Zidaan Architecture"
+                      />
                     </div>
 
                     <div class="mil-post-descr">
-
-                        <div class="mil-labels mil-up mil-mb-30">
-                            <div class="mil-label mil-upper mil-accent">GITHUB REPO</div>
-                            <div class="mil-label mil-upper">React • Laravel • Full Stack</div>
+                      <div class="mil-labels mil-up mil-mb-30">
+                        <div class="mil-label mil-upper mil-accent">
+                          GITHUB REPO
                         </div>
-
-                        <h4 class="mil-up mil-mb-30">Zidaan Architecture Platform</h4>
-
-                        <p class="mil-post-text mil-up mil-mb-30">
-                            Developed a full-stack architecture platform using React and Laravel. 
-                            Features include dynamic content management, API integration, responsive UI, 
-                            and scalable backend structure following enterprise-level architecture.
-                        </p>
-
-                        <div class="mil-link mil-dark mil-arrow-place mil-up">
-                            <span>View Code</span>
+                        <div class="mil-label mil-upper">
+                          React • Laravel • Full Stack
                         </div>
+                      </div>
 
+                      <h4 class="mil-up mil-mb-30">
+                        Zidaan Architecture Platform
+                      </h4>
+
+                      <p class="mil-post-text mil-up mil-mb-30">
+                        Developed a full-stack architecture platform using React
+                        and Laravel. Features include dynamic content
+                        management, API integration, responsive UI, and scalable
+                        backend structure following enterprise-level
+                        architecture.
+                      </p>
+
+                      <div class="mil-link mil-dark mil-arrow-place mil-up">
+                        <span>View Code</span>
+                      </div>
                     </div>
+                  </a>
+                </div>
 
-                </a>
-
-            </div>
-
-
-            <!-- RedFreshBharath -->
-            <div class="col-lg-6">
-
-                <a href="https://redfreshbharath.com/" target="_blank" class="mil-blog-card mil-mb-60 project-card">
-
+                <!-- RedFreshBharath -->
+                <div class="col-lg-6">
+                  <a
+                    href="https://redfreshbharath.com/"
+                    target="_blank"
+                    data-no-swup
+                    class="mil-blog-card mil-mb-60 project-card"
+                  >
                     <div class="mil-cover-frame mil-up">
-                        <img src="img/pictures/Redfreshbharath-image.png" alt="RedFreshBharath">
+                      <img
+                        src="img/pictures/Redfreshbharath-image.png"
+                        alt="RedFreshBharath"
+                      />
                     </div>
 
                     <div class="mil-post-descr">
-
-                        <div class="mil-labels mil-up mil-mb-30">
-                            <div class="mil-label mil-upper mil-accent">LIVE WEBSITE</div>
-                            <div class="mil-label mil-upper">HTML • CSS • JavaScript</div>
+                      <div class="mil-labels mil-up mil-mb-30">
+                        <div class="mil-label mil-upper mil-accent">
+                          LIVE WEBSITE
                         </div>
+                        <div class="mil-label mil-upper">
+                          HTML • CSS • JavaScript
+                        </div>
+                      </div>
 
-                        <h4 class="mil-up mil-mb-30">RedFreshBharath Business Website</h4>
+                      <h4 class="mil-up mil-mb-30">
+                        RedFreshBharath Business Website
+                      </h4>
 
-                        <p class="mil-post-text mil-up mil-mb-30">
-                            Designed and developed a fully responsive business website using HTML, CSS, and JavaScript. 
-                            Focused on performance optimization, modern UI design, and smooth user experience to 
-                            effectively showcase company services and brand identity.
+                      <p class="mil-post-text mil-up mil-mb-30">
+                        Designed and developed a fully responsive business
+                        website using HTML, CSS, and JavaScript. Focused on
+                        performance optimization, modern UI design, and smooth
+                        user experience to effectively showcase company services
+                        and brand identity.
+                      </p>
+
+                      <div class="mil-link mil-dark mil-arrow-place mil-up">
+                        <span>Visit Website</span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="skills">
+            <div class="container mil-p-120-90">
+              <!-- Title -->
+              <div class="row justify-content-center text-center mil-mb-60">
+                <div class="col-lg-8">
+                  <h3 class="mil-up">
+                    I have experience with these
+                    <span class="mil-thin">technologies</span>
+                  </h3>
+                </div>
+              </div>
+
+              <!-- Skills Grid -->
+              <div
+                class="row justify-content-center text-center align-items-center"
+              >
+                <!-- HTML -->
+                <div class="col-lg-2 col-md-3 col-4 mil-mb-40 mil-up">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                    class="mil-skill-logo"
+                  />
+                </div>
+
+                <!-- CSS -->
+                <div class="col-lg-2 col-md-3 col-4 mil-mb-40 mil-up">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                    class="mil-skill-logo"
+                  />
+                </div>
+
+                <!-- JavaScript -->
+                <div class="col-lg-2 col-md-3 col-4 mil-mb-40 mil-up">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                    class="mil-skill-logo"
+                  />
+                </div>
+
+                <!-- TypeScript -->
+                <div class="col-lg-2 col-md-3 col-4 mil-mb-40 mil-up">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                    class="mil-skill-logo"
+                  />
+                </div>
+
+                <!-- React -->
+                <div class="col-lg-2 col-md-3 col-4 mil-mb-40 mil-up">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                    class="mil-skill-logo"
+                  />
+                </div>
+
+                <!-- NextJS -->
+                <div class="col-lg-2 col-md-3 col-4 mil-mb-40 mil-up">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+                    class="mil-skill-logo"
+                  />
+                </div>
+
+                <!-- NodeJS -->
+                <div class="col-lg-2 col-md-3 col-4 mil-mb-40 mil-up">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                    class="mil-skill-logo"
+                  />
+                </div>
+
+                <!-- ExpressJS -->
+                <div class="col-lg-2 col-md-3 col-4 mil-mb-40 mil-up">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+                    class="mil-skill-logo"
+                  />
+                </div>
+
+                <!-- MongoDB -->
+                <div class="col-lg-2 col-md-3 col-4 mil-mb-40 mil-up">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                    class="mil-skill-logo"
+                  />
+                </div>
+
+                <!-- MySQL -->
+                <div class="col-lg-2 col-md-3 col-4 mil-mb-40 mil-up">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                    class="mil-skill-logo"
+                  />
+                </div>
+
+                <!-- PHP -->
+                <div class="col-lg-2 col-md-3 col-4 mil-mb-40 mil-up">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
+                    class="mil-skill-logo"
+                  />
+                </div>
+
+                <!-- Laravel -->
+                <div class="col-lg-2 col-md-3 col-4 mil-mb-40 mil-up">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg"
+                    class="mil-skill-logo"
+                  />
+                </div>
+
+                <!-- Java -->
+                <div class="col-lg-2 col-md-3 col-4 mil-mb-40 mil-up">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                    class="mil-skill-logo"
+                  />
+                </div>
+
+                <!-- DSA -->
+                <div class="col-lg-2 col-md-3 col-4 mil-mb-40 mil-up">
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/2103/2103633.png"
+                    class="mil-skill-logo"
+                  />
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Achievements & Certifications -->
+          <!-- certifications -->
+          <section id="certifications" class="mil-certifications mil-p-120-60">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12 mil-mb-60">
+                  <h2 class="mil-up">My Certifications</h2>
+                </div>
+              </div>
+
+              <div class="row">
+                <!-- Java & DSA -->
+                <div class="col-lg-4 mil-mb-60">
+                  <div class="mil-portfolio-item mil-up">
+                    <div class="mil-cover-frame">
+                      <div class="mil-cover">
+                        <img
+                          src="img/certificates/java-dsa.jpg"
+                          alt="Java DSA Certification"
+                        />
+                      </div>
+                    </div>
+                    <div class="mil-descr">
+                      <div class="mil-descr-text">
+                        <div class="mil-labels mil-mb-15">
+                          <div class="mil-label mil-upper mil-accent">
+                            Certification
+                          </div>
+                        </div>
+                        <h5>Java & Data Structures & Algorithms</h5>
+                        <p class="mil-light-soft">Certified by Apna College</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Full Stack Development -->
+                <div class="col-lg-4 mil-mb-60">
+                  <div class="mil-portfolio-item mil-up">
+                    <div class="mil-cover-frame">
+                      <div class="mil-cover">
+                        <img
+                          src="img/certificates/fullstack.jpg"
+                          alt="Full Stack Certification"
+                        />
+                      </div>
+                    </div>
+                    <div class="mil-descr">
+                      <div class="mil-descr-text">
+                        <div class="mil-labels mil-mb-15">
+                          <div class="mil-label mil-upper mil-accent">
+                            Certification
+                          </div>
+                        </div>
+                        <h5>Full Stack Development</h5>
+                        <p class="mil-light-soft">Certified by Apna College</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- MERN Bootcamp -->
+                <div class="col-lg-4 mil-mb-60">
+                  <div class="mil-portfolio-item mil-up">
+                    <div class="mil-cover-frame">
+                      <div class="mil-cover">
+                        <img
+                          src="img/certificates/mern.jpg"
+                          alt="MERN Bootcamp Certification"
+                        />
+                      </div>
+                    </div>
+                    <div class="mil-descr">
+                      <div class="mil-descr-text">
+                        <div class="mil-labels mil-mb-15">
+                          <div class="mil-label mil-upper mil-accent">
+                            Bootcamp
+                          </div>
+                        </div>
+                        <h5>30-Day MERN Stack Coding Bootcamp</h5>
+                        <p class="mil-light-soft">
+                          Completed Intensive MERN Training
                         </p>
-
-                        <div class="mil-link mil-dark mil-arrow-place mil-up">
-                            <span>Visit Website</span>
-                        </div>
-
+                      </div>
                     </div>
-
-                </a>
-
-            </div>
-
-        </div>
-
-    </div>
-</section>
-    
-<section id="skills">
-  <div class="container mil-p-120-90">
-
-    <!-- Title -->
-    <div class="row justify-content-center text-center mil-mb-60">
-      <div class="col-lg-8">
-        <h3 class="mil-up">
-          I have experience with these <span class="mil-thin">technologies</span>
-        </h3>
-      </div>
-    </div>
-
-    <!-- Skills Grid -->
-    <div class="row justify-content-center text-center align-items-center">
-
-      <!-- HTML -->
-      <div class="col-lg-2 col-md-3 col-4 mil-mb-40 mil-up">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="mil-skill-logo">
-      </div>
-
-      <!-- CSS -->
-      <div class="col-lg-2 col-md-3 col-4 mil-mb-40 mil-up">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="mil-skill-logo">
-      </div>
-
-      <!-- JavaScript -->
-      <div class="col-lg-2 col-md-3 col-4 mil-mb-40 mil-up">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="mil-skill-logo">
-      </div>
-
-      <!-- TypeScript -->
-      <div class="col-lg-2 col-md-3 col-4 mil-mb-40 mil-up">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" class="mil-skill-logo">
-      </div>
-
-      <!-- React -->
-      <div class="col-lg-2 col-md-3 col-4 mil-mb-40 mil-up">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" class="mil-skill-logo">
-      </div>
-
-      <!-- NextJS -->
-      <div class="col-lg-2 col-md-3 col-4 mil-mb-40 mil-up">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" class="mil-skill-logo">
-      </div>
-
-      <!-- NodeJS -->
-      <div class="col-lg-2 col-md-3 col-4 mil-mb-40 mil-up">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" class="mil-skill-logo">
-      </div>
-
-      <!-- ExpressJS -->
-      <div class="col-lg-2 col-md-3 col-4 mil-mb-40 mil-up">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" class="mil-skill-logo">
-      </div>
-
-      <!-- MongoDB -->
-      <div class="col-lg-2 col-md-3 col-4 mil-mb-40 mil-up">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" class="mil-skill-logo">
-      </div>
-
-      <!-- MySQL -->
-      <div class="col-lg-2 col-md-3 col-4 mil-mb-40 mil-up">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" class="mil-skill-logo">
-      </div>
-
-      <!-- PHP -->
-      <div class="col-lg-2 col-md-3 col-4 mil-mb-40 mil-up">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" class="mil-skill-logo">
-      </div>
-
-      <!-- Laravel -->
-      <div class="col-lg-2 col-md-3 col-4 mil-mb-40 mil-up">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" class="mil-skill-logo">
-      </div>
-
-      <!-- Java -->
-      <div class="col-lg-2 col-md-3 col-4 mil-mb-40 mil-up">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" class="mil-skill-logo">
-      </div>
-
-      <!-- DSA -->
-      <div class="col-lg-2 col-md-3 col-4 mil-mb-40 mil-up">
-        <img src="https://cdn-icons-png.flaticon.com/512/2103/2103633.png" class="mil-skill-logo">
-      </div>
-
-    </div>
-
-  </div>
-</section>
-                 <!-- Achievements & Certifications -->
-<!-- certifications -->
-<section id="certifications" class="mil-certifications mil-p-120-60">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 mil-mb-60">
-                <h2 class="mil-up">My Certifications</h2>
-            </div>
-        </div>
-
-        <div class="row">
-
-            <!-- Java & DSA -->
-            <div class="col-lg-4 mil-mb-60">
-                <div class="mil-portfolio-item mil-up">
-                    <div class="mil-cover-frame">
-                        <div class="mil-cover">
-                            <img src="img/certificates/java-dsa.jpg" alt="Java DSA Certification">
-                        </div>
-                    </div>
-                    <div class="mil-descr">
-                        <div class="mil-descr-text">
-                            <div class="mil-labels mil-mb-15">
-                                <div class="mil-label mil-upper mil-accent">Certification</div>
-                            </div>
-                            <h5>Java & Data Structures & Algorithms</h5>
-                            <p class="mil-light-soft">Certified by Apna College</p>
-                        </div>
-                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
+          </section>
 
-            <!-- Full Stack Development -->
-            <div class="col-lg-4 mil-mb-60">
-                <div class="mil-portfolio-item mil-up">
-                    <div class="mil-cover-frame">
-                        <div class="mil-cover">
-                            <img src="img/certificates/fullstack.jpg" alt="Full Stack Certification">
-                        </div>
-                    </div>
-                    <div class="mil-descr">
-                        <div class="mil-descr-text">
-                            <div class="mil-labels mil-mb-15">
-                                <div class="mil-label mil-upper mil-accent">Certification</div>
-                            </div>
-                            <h5>Full Stack Development</h5>
-                            <p class="mil-light-soft">Certified by Apna College</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- MERN Bootcamp -->
-            <div class="col-lg-4 mil-mb-60">
-                <div class="mil-portfolio-item mil-up">
-                    <div class="mil-cover-frame">
-                        <div class="mil-cover">
-                            <img src="img/certificates/mern.jpg" alt="MERN Bootcamp Certification">
-                        </div>
-                    </div>
-                    <div class="mil-descr">
-                        <div class="mil-descr-text">
-                            <div class="mil-labels mil-mb-15">
-                                <div class="mil-label mil-upper mil-accent">Bootcamp</div>
-                            </div>
-                            <h5>30-Day MERN Stack Coding Bootcamp</h5>
-                            <p class="mil-light-soft">Completed Intensive MERN Training</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-
-             <div class="mil-soft-bg ">
-    <div class="container mil-p-0-120">
-
-        <div class="swiper-container mil-infinite-show mil-up ">
-            <div class="swiper-wrapper">
-
-                <!-- Repeat multiple slides for smooth infinite effect -->
-                <div class="swiper-slide mt-5">
-                    <div class="mil-moving-text"> -Kaif Ahmed Sherdi</div>
-                </div>
-
-                <div class="swiper-slide mt-5">
+          <div class="mil-soft-bg">
+            <div class="container mil-p-0-120">
+              <div class="swiper-container mil-infinite-show mil-up">
+                <div class="swiper-wrapper">
+                  <!-- Repeat multiple slides for smooth infinite effect -->
+                  <div class="swiper-slide mt-5">
                     <div class="mil-moving-text">-Kaif Ahmed Sherdi</div>
-                </div>
+                  </div>
 
-                <div class="swiper-slide mt-5">
+                  <div class="swiper-slide mt-5">
                     <div class="mil-moving-text">-Kaif Ahmed Sherdi</div>
-                </div>
+                  </div>
 
-                <div class="swiper-slide mt-5">
+                  <div class="swiper-slide mt-5">
                     <div class="mil-moving-text">-Kaif Ahmed Sherdi</div>
-                </div>
+                  </div>
 
-                <div class="swiper-slide mt-5">
+                  <div class="swiper-slide mt-5">
                     <div class="mil-moving-text">-Kaif Ahmed Sherdi</div>
-                </div>
+                  </div>
 
+                  <div class="swiper-slide mt-5">
+                    <div class="mil-moving-text">-Kaif Ahmed Sherdi</div>
+                  </div>
+                </div>
+              </div>
             </div>
-        </div>
+          </div>
 
-    </div>
-</div>
-       
-               
-                <footer id="contact" class="mil-dark-bg">
-    <div class="mi-invert-fix">
-        <div class="container mil-p-120-60">
-
-            <div class="row justify-content-between">
-
-                <!-- LEFT SIDE -->
-                <div class="col-md-4 col-lg-4 mil-mb-60">
-
+          <footer id="contact" class="mil-dark-bg">
+            <div class="mi-invert-fix">
+              <div class="container mil-p-120-60">
+                <div class="row justify-content-between">
+                  <!-- LEFT SIDE -->
+                  <div class="col-md-4 col-lg-4 mil-mb-60">
                     <!-- Your Name Logo -->
                     <div class="mil-muted mil-logo mil-up mil-mb-30">
-                        Kaif Ahmed Sherdi
+                      Kaif Ahmed Sherdi
                     </div>
 
                     <!-- Professional Summary -->
                     <p class="mil-light-soft mil-up mil-mb-30">
-                        Full Stack Developer specializing in React, Laravel, and modern web technologies. 
-                        I build scalable web applications, business websites, ERP systems, and high-performance digital solutions.
+                      Full Stack Developer specializing in React, Laravel, and
+                      modern web technologies. I build scalable web
+                      applications, business websites, ERP systems, and
+                      high-performance digital solutions.
                     </p>
+                  </div>
 
-                </div>
-
-
-                <!-- RIGHT SIDE MENU -->
-                <div class="col-md-7 col-lg-6">
+                  <!-- RIGHT SIDE MENU -->
+                  <div class="col-md-7 col-lg-6">
                     <div class="row justify-content-end">
+                      <!-- Navigation -->
+                      <div class="col-md-6 col-lg-7">
+                        <nav class="mil-footer-menu mil-mb-60">
+                          <ul>
+                            <li class="mil-up">
+                              <a href="#home">Home</a>
+                            </li>
+                            <li class="mil-up">
+                              <a href="#projects">Projects</a>
+                            </li>
+                            <li class="mil-up">
+                              <a href="#services">Services</a>
+                            </li>
+                            <li class="mil-up">
+                              <a href="#experience">Experience</a>
+                            </li>
+                            <li class="mil-up">
+                              <a href="#contact">Contact</a>
+                            </li>
+                          </ul>
+                        </nav>
+                      </div>
 
-                        <!-- Navigation -->
-                        <div class="col-md-6 col-lg-7">
+                      <!-- Services -->
+                      <div class="col-md-6 col-lg-5">
+                        <ul class="mil-menu-list mil-up mil-mb-60">
+                          <li class="mil-light-soft">Web Applications</li>
 
-                            <nav class="mil-footer-menu mil-mb-60">
-                                <ul>
-                                    <li class="mil-up">
-                                        <a href="#home">Home</a>
-                                    </li>
-                                    <li class="mil-up">
-                                        <a href="#projects">Projects</a>
-                                    </li>
-                                    <li class="mil-up">
-                                        <a href="#services">Services</a>
-                                    </li>
-                                    <li class="mil-up">
-                                        <a href="#experience">Experience</a>
-                                    </li>
-                                    <li class="mil-up">
-                                        <a href="#contact">Contact</a>
-                                    </li>
-                                </ul>
-                            </nav>
+                          <li class="mil-light-soft">Business Websites</li>
 
-                        </div>
+                          <li class="mil-light-soft">ERP Systems</li>
 
+                          <li class="mil-light-soft">Full Stack Development</li>
 
-                        <!-- Services -->
-                        <div class="col-md-6 col-lg-5">
-
-                            <ul class="mil-menu-list mil-up mil-mb-60">
-
-                                <li class="mil-light-soft">Web Applications</li>
-
-                                <li class="mil-light-soft">Business Websites</li>
-
-                                <li class="mil-light-soft">ERP Systems</li>
-
-                                <li class="mil-light-soft">Full Stack Development</li>
-
-                                <li class="mil-light-soft">Frontend Development</li>
-
-                            </ul>
-
-                        </div>
-
+                          <li class="mil-light-soft">Frontend Development</li>
+                        </ul>
+                      </div>
                     </div>
+                  </div>
                 </div>
 
-            </div>
-
-
-            <!-- Bottom Section -->
-            <div class="row justify-content-between flex-sm-row-reverse">
-
-                <!-- Contact Info -->
-                <div class="col-md-7 col-lg-6">
-
+                <!-- Bottom Section -->
+                <div class="row justify-content-between flex-sm-row-reverse">
+                  <!-- Contact Info -->
+                  <div class="col-md-7 col-lg-6">
                     <div class="row justify-content-between">
+                      <div class="col-md-6 col-lg-5 mil-mb-60">
+                        <h6 class="mil-muted mil-up mil-mb-30">Contact</h6>
 
-                        <div class="col-md-6 col-lg-5 mil-mb-60">
-
-                            <h6 class="mil-muted mil-up mil-mb-30">Contact</h6>
-
-                            <p class="mil-light-soft mil-up">
-
-    <!-- WhatsApp -->
-    <a href="https://wa.me/917829747061" target="_blank" 
-       style="display:flex; align-items:center; gap:8px; margin-bottom:8px; text-decoration:none; color:#fff;">
-        
-        <i class="fab fa-whatsapp" style="color:#25D366; font-size:18px;"></i>
-        <span>+91 7829747061</span>
-    </a>
-
-
-    <!-- Call -->
-    <a href="tel:+919019202369" 
-       style="display:flex; align-items:center; gap:8px; text-decoration:none; color:#fff;">
-        
-        <i class="fas fa-phone-alt" style="color:#4da3ff; font-size:16px;"></i>
-        <span>+91 9019202369</span>
-    </a>
-
-</p>
-
-                        </div>
-
-
-                        <div class="col-md-6 col-lg-5 mil-mb-60">
-
-                            <h6 class="mil-muted mil-up mil-mb-30">Tech Stack</h6>
-
-                            <p class="mil-light-soft mil-up">
-                                React • Laravel • JavaScript <br>
-                                HTML • CSS • MySQL • API Integration
-                            </p>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                <!-- Social + Copyright -->
-                <div class="col-md-4 col-lg-6 mil-mb-60">
-
-                    <div class="mil-vert-between">
-
-                        <!-- Social Links -->
-                        <div class="mil-mb-30">
-
-    <ul class="mil-social-icons mil-up">
-
-        <!-- GitHub -->
-        <li>
-            <a href="https://github.com/kaifsherdi1" target="_blank" 
-               class="social-icon"
-               style="display:flex; align-items:center; gap:8px;">
-                
-                <i class="fab fa-github"></i>
-                GitHub
-            </a>
-        </li>
-
-        <!-- LinkedIn -->
-        <li>
-            <a href="https://www.linkedin.com/in/kaif-ahmed-sherdi-815b25297/" target="_blank" 
-               class="social-icon"
-               style="display:flex; align-items:center; gap:8px;">
-                
-                <i class="fab fa-linkedin"></i>
-                LinkedIn
-            </a>
-        </li>
-
-        <!-- Email -->
-        <li>
-            <a href="mailto:kaifsherdi19@gmail.com?subject=Project Inquiry&body=Hello Kaif,%0A%0AI would like to discuss a project with you.%0A%0ARegards," 
-               class="social-icon"
-               style="display:flex; align-items:center; gap:8px;">
-                
-                <i class="fas fa-envelope"></i>
-                Email Me
-            </a>
-        </li>
-
-    </ul>
-
-</div>
-
-
-                        <!-- Copyright -->
                         <p class="mil-light-soft mil-up">
-                            © 2026 Kaif Ahmed Sherdi. All Rights Reserved.
+                          <!-- WhatsApp -->
+                          <a
+                            href="https://wa.me/917829747061"
+                            target="_blank"
+                            data-no-swup
+                            style="
+                              display: flex;
+                              align-items: center;
+                              gap: 8px;
+                              margin-bottom: 8px;
+                              text-decoration: none;
+                              color: #fff;
+                            "
+                          >
+                            <i
+                              class="fab fa-whatsapp"
+                              style="color: #25d366; font-size: 18px"
+                            ></i>
+                            <span>+91 7829747061</span>
+                          </a>
+
+                          <!-- Call -->
+                          <a
+                            href="tel:+919019202369"
+                            data-no-swup
+                            style="
+                              display: flex;
+                              align-items: center;
+                              gap: 8px;
+                              text-decoration: none;
+                              color: #fff;
+                            "
+                          >
+                            <i
+                              class="fas fa-phone-alt"
+                              style="color: #4da3ff; font-size: 16px"
+                            ></i>
+                            <span>+91 9019202369</span>
+                          </a>
                         </p>
+                      </div>
 
+                      <div class="col-md-6 col-lg-5 mil-mb-60">
+                        <h6 class="mil-muted mil-up mil-mb-30">Tech Stack</h6>
+
+                        <p class="mil-light-soft mil-up">
+                          React • Laravel • JavaScript <br />
+                          HTML • CSS • MySQL • API Integration
+                        </p>
+                      </div>
                     </div>
+                  </div>
 
+                  <!-- Social + Copyright -->
+                  <div class="col-md-4 col-lg-6 mil-mb-60">
+                    <div class="mil-vert-between">
+                      <!-- Social Links -->
+                      <div class="mil-mb-30">
+                        <ul class="mil-social-icons mil-up">
+                          <!-- GitHub -->
+                          <li>
+                            <a
+                              href="https://github.com/kaifsherdi1"
+                              target="_blank"
+                              data-no-swup
+                              class="social-icon"
+                              style="
+                                display: flex;
+                                align-items: center;
+                                gap: 8px;
+                              "
+                            >
+                              <i class="fab fa-github"></i>
+                              GitHub
+                            </a>
+                          </li>
+
+                          <!-- LinkedIn -->
+                          <li>
+                            <a
+                              href="https://www.linkedin.com/in/kaif-ahmed-sherdi-815b25297/"
+                              target="_blank"
+                              data-no-swup
+                              class="social-icon"
+                              style="
+                                display: flex;
+                                align-items: center;
+                                gap: 8px;
+                              "
+                            >
+                              <i class="fab fa-linkedin"></i>
+                              LinkedIn
+                            </a>
+                          </li>
+
+                          <!-- Email -->
+                          <li>
+                            <a
+                              href="mailto:kaifsherdi19@gmail.com?subject=Project Inquiry&body=Hello Kaif,%0A%0AI would like to discuss a project with you.%0A%0ARegards,"
+                              data-no-swup
+                              class="social-icon"
+                              style="
+                                display: flex;
+                                align-items: center;
+                                gap: 8px;
+                              "
+                            >
+                              <i class="fas fa-envelope"></i>
+                              Email Me
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <!-- Copyright -->
+                      <p class="mil-light-soft mil-up">
+                        © 2026 Kaif Ahmed Sherdi. All Rights Reserved.
+                      </p>
+                    </div>
+                  </div>
                 </div>
+              </div>
+            </div>
+          </footer>
+          <!-- footer end -->
 
+          <!-- hidden elements -->
+          <div class="mil-hidden-elements">
+            <div class="mil-dodecahedron">
+              <div class="mil-pentagon">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <div class="mil-pentagon">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <div class="mil-pentagon">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <div class="mil-pentagon">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <div class="mil-pentagon">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <div class="mil-pentagon">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <div class="mil-pentagon">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <div class="mil-pentagon">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <div class="mil-pentagon">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <div class="mil-pentagon">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <div class="mil-pentagon">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <div class="mil-pentagon">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
             </div>
 
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              class="mil-arrow"
+            >
+              <path
+                d="M 14 5.3417969 C 13.744125 5.3417969 13.487969 5.4412187 13.292969 5.6367188 L 13.207031 5.7226562 C 12.816031 6.1136563 12.816031 6.7467188 13.207031 7.1367188 L 17.070312 11 L 4 11 C 3.448 11 3 11.448 3 12 C 3 12.552 3.448 13 4 13 L 17.070312 13 L 13.207031 16.863281 C 12.816031 17.254281 12.816031 17.887344 13.207031 18.277344 L 13.292969 18.363281 C 13.683969 18.754281 14.317031 18.754281 14.707031 18.363281 L 20.363281 12.707031 C 20.754281 12.316031 20.754281 11.682969 20.363281 11.292969 L 14.707031 5.6367188 C 14.511531 5.4412187 14.255875 5.3417969 14 5.3417969 z"
+              />
+            </svg>
+
+            <svg
+              width="250"
+              viewBox="0 0 300 1404"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="mil-lines"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M1 892L1 941H299V892C299 809.71 232.29 743 150 743C67.7096 743 1 809.71 1 892ZM0 942H300V892C300 809.157 232.843 742 150 742C67.1573 742 0 809.157 0 892L0 942Z"
+                class="mil-move"
+              />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M299 146V97L1 97V146C1 228.29 67.7096 295 150 295C232.29 295 299 228.29 299 146ZM300 96L0 96V146C0 228.843 67.1573 296 150 296C232.843 296 300 228.843 300 146V96Z"
+                class="mil-move"
+              />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M299 1H1V1403H299V1ZM0 0V1404H300V0H0Z"
+              />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M150 -4.37115e-08L150 1404L149 1404L149 0L150 -4.37115e-08Z"
+              />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M150 1324C232.29 1324 299 1257.29 299 1175C299 1092.71 232.29 1026 150 1026C67.7096 1026 1 1092.71 1 1175C1 1257.29 67.7096 1324 150 1324ZM150 1325C232.843 1325 300 1257.84 300 1175C300 1092.16 232.843 1025 150 1025C67.1573 1025 0 1092.16 0 1175C0 1257.84 67.1573 1325 150 1325Z"
+                class="mil-move"
+              />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M300 1175H0V1174H300V1175Z"
+                class="mil-move"
+              />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M150 678C232.29 678 299 611.29 299 529C299 446.71 232.29 380 150 380C67.7096 380 1 446.71 1 529C1 611.29 67.7096 678 150 678ZM150 679C232.843 679 300 611.843 300 529C300 446.157 232.843 379 150 379C67.1573 379 0 446.157 0 529C0 611.843 67.1573 679 150 679Z"
+                class="mil-move"
+              />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M299 380H1V678H299V380ZM0 379V679H300V379H0Z"
+                class="mil-move"
+              />
+            </svg>
+          </div>
+          <!-- hidden elements end -->
         </div>
-    </div>
-</footer>
-                <!-- footer end -->
-
-                <!-- hidden elements -->
-                <div class="mil-hidden-elements">
-                    <div class="mil-dodecahedron">
-                        <div class="mil-pentagon">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
-                        <div class="mil-pentagon">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
-                        <div class="mil-pentagon">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
-                        <div class="mil-pentagon">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
-                        <div class="mil-pentagon">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
-                        <div class="mil-pentagon">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
-                        <div class="mil-pentagon">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
-                        <div class="mil-pentagon">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
-                        <div class="mil-pentagon">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
-                        <div class="mil-pentagon">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
-                        <div class="mil-pentagon">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
-                        <div class="mil-pentagon">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
-                    </div>
-
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="mil-arrow">
-                        <path d="M 14 5.3417969 C 13.744125 5.3417969 13.487969 5.4412187 13.292969 5.6367188 L 13.207031 5.7226562 C 12.816031 6.1136563 12.816031 6.7467188 13.207031 7.1367188 L 17.070312 11 L 4 11 C 3.448 11 3 11.448 3 12 C 3 12.552 3.448 13 4 13 L 17.070312 13 L 13.207031 16.863281 C 12.816031 17.254281 12.816031 17.887344 13.207031 18.277344 L 13.292969 18.363281 C 13.683969 18.754281 14.317031 18.754281 14.707031 18.363281 L 20.363281 12.707031 C 20.754281 12.316031 20.754281 11.682969 20.363281 11.292969 L 14.707031 5.6367188 C 14.511531 5.4412187 14.255875 5.3417969 14 5.3417969 z" />
-                    </svg>
-
-                    <svg width="250" viewBox="0 0 300 1404" fill="none" xmlns="http://www.w3.org/2000/svg" class="mil-lines">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M1 892L1 941H299V892C299 809.71 232.29 743 150 743C67.7096 743 1 809.71 1 892ZM0 942H300V892C300 809.157 232.843 742 150 742C67.1573 742 0 809.157 0 892L0 942Z" class="mil-move" />
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M299 146V97L1 97V146C1 228.29 67.7096 295 150 295C232.29 295 299 228.29 299 146ZM300 96L0 96V146C0 228.843 67.1573 296 150 296C232.843 296 300 228.843 300 146V96Z" class="mil-move" />
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M299 1H1V1403H299V1ZM0 0V1404H300V0H0Z" />
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M150 -4.37115e-08L150 1404L149 1404L149 0L150 -4.37115e-08Z" />
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M150 1324C232.29 1324 299 1257.29 299 1175C299 1092.71 232.29 1026 150 1026C67.7096 1026 1 1092.71 1 1175C1 1257.29 67.7096 1324 150 1324ZM150 1325C232.843 1325 300 1257.84 300 1175C300 1092.16 232.843 1025 150 1025C67.1573 1025 0 1092.16 0 1175C0 1257.84 67.1573 1325 150 1325Z" class="mil-move" />
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M300 1175H0V1174H300V1175Z" class="mil-move" />
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M150 678C232.29 678 299 611.29 299 529C299 446.71 232.29 380 150 380C67.7096 380 1 446.71 1 529C1 611.29 67.7096 678 150 678ZM150 679C232.843 679 300 611.843 300 529C300 446.157 232.843 379 150 379C67.1573 379 0 446.157 0 529C0 611.843 67.1573 679 150 679Z" class="mil-move" />
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M299 380H1V678H299V380ZM0 379V679H300V379H0Z" class="mil-move" />
-                    </svg>
-                </div>
-                <!-- hidden elements end -->
-
-            </div>
-        </div>
-        <!-- content -->
+      </div>
+      <!-- content -->
     </div>
     <!-- wrapper end -->
 
@@ -1349,7 +1604,5 @@
     <script src="js/plugins/ScrollTo.min.js"></script>
     <!-- ashley js -->
     <script src="js/main.js"></script>
-
-</body>
-
+  </body>
 </html>
