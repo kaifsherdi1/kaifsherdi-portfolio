@@ -2,7 +2,7 @@
 
 A clean, modern, and fully responsive **personal portfolio website** built with HTML, CSS, and JavaScript. Showcasing my skills, projects, experience, and certifications as a Full Stack Developer.
 
-🔗 **Live Portfolio:** [kaifsherdi-portfolio](https://github.com/kaifsherdi1/kaifsherdi-portfolio)
+🔗 **Live Portfolio:** [kaifsherdi-portfolio](https://kaifsherdi-portfolio-seven.vercel.app/)
 
 ---
 
